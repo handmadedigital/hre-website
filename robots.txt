@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://harrisonrenewables.com/sitemap.xml
