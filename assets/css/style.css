@@ -1586,10 +1586,13 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+.flex {
+  display: flex
+}
 #footer {
-  background: #0c0c0c6e;
+  background: #fff;
   padding: 0 0 30px 0;
-  color: #fff;
+  color: #24283c;
   font-size: 14px;
 }
 
@@ -1600,11 +1603,11 @@ section {
 #footer .footer-top .footer-info {
   margin-bottom: 15px;
   /*background: #8d8c8c;*/
-  background: #fff;
+  background: #24283c;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  color: #23283c;
+  color: #fff;
   /*color: #fff;*/
-  border-top: 4px solid #23283c;
+  border-top: 4px solid #24283c;
   text-align: center;
   padding: 30px 20px;
 }
@@ -1627,8 +1630,8 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #262626;
-  color: #fff;
+  background: #fff;
+  color: #24283c;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1734,7 +1737,7 @@ section {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
-  color: #fff;
+  color: #24283c;
 }
 
 #footer .credits a {
